@@ -29,6 +29,7 @@ packer.startup(function(use)
     tag = '0.1.0',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use 'jiangmiao/auto-pairs'
 
   -- Colorscheme
   use 'tjdevries/colorbuddy.vim'
