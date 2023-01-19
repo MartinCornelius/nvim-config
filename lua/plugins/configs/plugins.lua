@@ -35,6 +35,12 @@ packer.startup(function(use)
   use 'tjdevries/colorbuddy.vim'
   use 'tjdevries/gruvbuddy.nvim'
   use 'vimcolorschemes/vimcolorschemes'
+  use 'AlessandroYorba/Sierra'
+  use 'danilo-augusto/vim-afterglow'
+  use 'jdsimcoe/abstract.vim'
+  use 'zacanger/angr.vim'
+  use 'chase/focuspoint-vim'
+  use 'jacoborus/tender.vim'
 
   -- Csharp
   use 'OmniSharp/omnisharp-vim'

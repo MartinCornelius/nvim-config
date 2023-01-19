@@ -74,6 +74,21 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  Sierra = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Sierra",
+    url = "https://github.com/AlessandroYorba/Sierra"
+  },
+  ["abstract.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\abstract.vim",
+    url = "https://github.com/jdsimcoe/abstract.vim"
+  },
+  ["angr.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\angr.vim",
+    url = "https://github.com/zacanger/angr.vim"
+  },
   ["auto-pairs"] = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-pairs",
@@ -88,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.vim",
     url = "https://github.com/tjdevries/colorbuddy.vim"
+  },
+  ["focuspoint-vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\focuspoint-vim",
+    url = "https://github.com/chase/focuspoint-vim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -138,6 +158,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tender.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tender.vim",
+    url = "https://github.com/jacoborus/tender.vim"
+  },
+  ["vim-afterglow"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-afterglow",
+    url = "https://github.com/danilo-augusto/vim-afterglow"
   },
   vimcolorschemes = {
     loaded = true,
