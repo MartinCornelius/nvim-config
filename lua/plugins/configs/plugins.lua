@@ -42,6 +42,9 @@ packer.startup(function(use)
   use 'chase/focuspoint-vim'
   use 'jacoborus/tender.vim'
 
+  -- Haxe
+  use 'jdonaldson/vaxe'
+
   -- Csharp
   use 'OmniSharp/omnisharp-vim'
   use { 'neoclide/coc.nvim', branch='release' }

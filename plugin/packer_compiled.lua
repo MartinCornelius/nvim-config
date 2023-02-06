@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tender.vim",
     url = "https://github.com/jacoborus/tender.vim"
   },
+  vaxe = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vaxe",
+    url = "https://github.com/jdonaldson/vaxe"
+  },
   ["vim-afterglow"] = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-afterglow",
