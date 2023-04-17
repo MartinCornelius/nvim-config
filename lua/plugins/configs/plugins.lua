@@ -45,6 +45,9 @@ packer.startup(function(use)
   -- Haxe
   use 'jdonaldson/vaxe'
 
+  -- Git
+  use 'tpope/vim-fugitive'
+
   -- Csharp
   use 'OmniSharp/omnisharp-vim'
   use { 'neoclide/coc.nvim', branch='release' }

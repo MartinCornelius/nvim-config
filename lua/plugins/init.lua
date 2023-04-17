@@ -6,4 +6,4 @@ require "plugins/configs/nvim-tree"
 require "plugins/configs/treesitter"
 require "plugins/configs/telescope"
 require "plugins/configs/omnisharp"
-
+require "plugins/configs/fugitive"

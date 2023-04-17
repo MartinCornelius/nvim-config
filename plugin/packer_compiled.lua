@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-afterglow",
     url = "https://github.com/danilo-augusto/vim-afterglow"
   },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
   vimcolorschemes = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimcolorschemes",
