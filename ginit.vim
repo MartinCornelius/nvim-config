@@ -1,7 +1,7 @@
-let s:fontsize = 14
+let s:fontsize = 11
 function! AdjustFontSize(amount)
   let s:fontsize = s:fontsize+a:amount
-  :execute "GuiFont! JetBrains Mono:h" . s:fontsize
+  :execute "GuiFont! Terminus (TTF) for Windows:h" . s:fontsize
 endfunction
 
 noremap <C-ScrollWheelUp> :call AdjustFontSize(1)<CR>
