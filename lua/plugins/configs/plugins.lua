@@ -41,4 +41,5 @@ return require('packer').startup(function ()
   use 'tjdevries/colorbuddy.vim'
   use 'tjdevries/gruvbuddy.nvim'
   use 'morhetz/gruvbox'
+  use 'folke/tokyonight.nvim'
 end)
