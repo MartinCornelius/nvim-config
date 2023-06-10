@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.vim",
     url = "https://github.com/tjdevries/colorbuddy.vim"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\Martin Cornelius\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",

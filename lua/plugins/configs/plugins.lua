@@ -42,4 +42,7 @@ return require('packer').startup(function ()
   use 'tjdevries/gruvbuddy.nvim'
   use 'morhetz/gruvbox'
   use 'folke/tokyonight.nvim'
+
+  -- GITHUB COPILOT
+  use 'github/copilot.vim'
 end)
