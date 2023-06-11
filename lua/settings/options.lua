@@ -20,3 +20,4 @@ vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent
 -- make a keybinding leader leader tab for :bp
 vim.api.nvim_set_keymap('n', '<leader><tab><tab>', ':bp <CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader><tab>p', ':bn <CR>', { noremap = true, silent = true })
+
