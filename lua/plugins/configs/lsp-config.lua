@@ -16,3 +16,7 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 nvim_lsp.lua_ls.setup{ on_attach=on_attach, capabilities=capabilities }
 nvim_lsp.clangd.setup{ on_attach=on_attach, capabilities=capabilities }
+nvim_lsp.tsserver.setup{
+  filetypes = { "javascript", "typescript", "typescriptreact", "typescript.tsx" },
+  root_dir = function() return vim.loop.cwd() end  
+}

@@ -20,9 +20,6 @@ return require('packer').startup(function ()
             -- gcc comments a line
             -- select gc comments out mutliple lines
 
-  use 'jiangmiao/auto-pairs'
-  use 'simrat39/symbols-outline.nvim'
-  use 'RRethy/vim-illuminate'
   use 'alvan/vim-closetag'
 
   -- LSP
@@ -33,15 +30,14 @@ return require('packer').startup(function ()
   }
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
-  use 'L3MON4D3/LuaSnip'
-  use 'saadparwaiz1/cmp_luasnip'
-  use 'rafamadriz/friendly-snippets'
 
   -- Colorscheme
   use 'tjdevries/colorbuddy.vim'
   use 'tjdevries/gruvbuddy.nvim'
   use 'morhetz/gruvbox'
   use 'folke/tokyonight.nvim'
+  use 'NLKNguyen/papercolor-theme'
+  use 'croaker/mustang-vim'
 
   -- GITHUB COPILOT
   use 'github/copilot.vim'

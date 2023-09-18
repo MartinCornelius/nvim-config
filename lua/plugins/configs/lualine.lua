@@ -1,8 +1,9 @@
 require('lualine').setup {
   options = {
-    --icons_enabled = true,
+    icons_enabled = true,
     --theme = 'codedark',
-    --theme = 'powerline_dark',
-    theme = "jellybeans"
+    theme = 'powerline_dark',
+    --theme = "jellybeans"
+     --theme = "palenight"
   },
 }
