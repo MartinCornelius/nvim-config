@@ -3,7 +3,8 @@ return require('packer').startup(function ()
 
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
-  use 'nvim-lualine/lualine.nvim'
+  --use 'nvim-lualine/lualine.nvim'
+  use 'famiu/feline.nvim' -- alternative to lualine
   use 'luochen1990/rainbow'
   use 'zefei/vim-colortuner'
 

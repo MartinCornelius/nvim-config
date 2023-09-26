@@ -1,6 +1,7 @@
 vim.o.termguicolors = true
 vim.cmd [[ set background=dark ]]
-vim.cmd [[ colorscheme mustang ]]
+--vim.cmd [[ colorscheme mustang ]]
+vim.cmd [[ colorscheme Papercolor ]]
 
 -- GRUVBOX
 -- vim.cmd [[ let g:gruvbox_contrast_dark='hard' ]]

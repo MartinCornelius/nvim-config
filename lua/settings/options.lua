@@ -13,6 +13,10 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.shiftround = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.smarttab = true
+vim.opt.ai = true
 
 -- same keybinding for enable and disable copilot
 vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent = true })

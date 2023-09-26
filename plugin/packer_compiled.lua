@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Bruger\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["feline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Bruger\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\feline.nvim",
+    url = "https://github.com/famiu/feline.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "C:\\Users\\Bruger\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
@@ -98,11 +103,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Bruger\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbuddy.nvim",
     url = "https://github.com/tjdevries/gruvbuddy.nvim"
-  },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Bruger\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
