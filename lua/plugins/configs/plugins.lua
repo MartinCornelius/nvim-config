@@ -2,11 +2,8 @@ return require('packer').startup(function ()
   use 'wbthomason/packer.nvim'
 
   use 'nvim-tree/nvim-tree.lua'
-  use 'nvim-tree/nvim-web-devicons'
-  --use 'nvim-lualine/lualine.nvim'
-  use 'famiu/feline.nvim' -- alternative to lualine
-  use 'luochen1990/rainbow'
-  use 'zefei/vim-colortuner'
+  use 'vim-airline/vim-airline'
+  use 'vim-airline/vim-airline-themes'
 
   -- TELESCOPE
   use {
@@ -21,7 +18,7 @@ return require('packer').startup(function ()
             -- gcc comments a line
             -- select gc comments out mutliple lines
 
-  use 'alvan/vim-closetag'
+  use 'townk/vim-autoclose'
 
   -- LSP
   use {
@@ -31,14 +28,20 @@ return require('packer').startup(function ()
   }
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
+  use {'akinsho/bufferline.nvim', tag="*", requires="nvim-tree/nvim-web-devicons"}
 
   -- Colorscheme
-  use 'tjdevries/colorbuddy.vim'
-  use 'tjdevries/gruvbuddy.nvim'
-  use 'morhetz/gruvbox'
-  use 'folke/tokyonight.nvim'
-  use 'NLKNguyen/papercolor-theme'
-  use 'croaker/mustang-vim'
+  use 'kristijanhusak/vim-hybrid-material'
+  use 'shaunsingh/solarized.nvim'
+  use 'ribru17/bamboo.nvim'
+  use 'blazkowolf/gruber-darker.nvim'
+  use "kihachi2000/yash.nvim"
+  use 'kaiuri/nvim-juliana'
+  use {
+    'lalitmee/cobalt2.nvim',
+    requires = 'tjdevries/colorbuddy.nvim'
+  }
+  use 'projekt0n/github-nvim-theme'
 
   -- GITHUB COPILOT
   use 'github/copilot.vim'
