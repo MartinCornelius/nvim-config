@@ -2,7 +2,12 @@ return require('packer').startup(function ()
   use 'wbthomason/packer.nvim'
 
   use 'nvim-tree/nvim-tree.lua'
-  use 'famiu/feline.nvim'
+  use {
+  'nvim-lualine/lualine.nvim',
+requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
+
+    use {'akinsho/bufferline.nvim', tag="*", requires="nvim-tree/nvim-web-devicons"}
   use "lukas-reineke/indent-blankline.nvim"
   use 'lukas-reineke/lsp-format.nvim'
 
@@ -20,7 +25,6 @@ return require('packer').startup(function ()
 
   use 'townk/vim-autoclose'
   use 'luochen1990/rainbow'
-    use {'akinsho/bufferline.nvim', tag="*", requires="nvim-tree/nvim-web-devicons"}
 
   -- LSP
   use {
