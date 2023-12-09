@@ -1,7 +1,6 @@
-vim.o.termguicolors = true
-vim.cmd [[ set background=dark ]]
-vim.cmd [[ colorscheme hybrid_material ]]
-vim.cmd [[ let g:enable_bold_font=1 ]]
-vim.cmd [[ set lazyredraw ]]
-
---require('colorbuddy').colorscheme('cobalt2')
+-- vim.cmd [[set termguicolors]]
+-- vim.cmd [[let g:gruvbox_contrast_dark='hard']]
+-- vim.cmd [[let g:gruvbox_contrast_light='hard']]
+-- vim.cmd [[colorscheme gruvbox]]
+-- vim.cmd [[hi LspCxxHlGroupMemberVariable guifg=#83a598]]
+vim.cmd [[colorscheme github_dark_dimmed]]

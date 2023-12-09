@@ -3,20 +3,21 @@ vim.g.maplocalleader = ' '
 
 vim.opt.backspace = '2'
 vim.opt.showcmd = true
-vim.opt.laststatus = 2
+vim.opt.laststatus = 4
 vim.opt.cursorline = false
 vim.opt.autowrite = true
 vim.opt.autoread = true
 vim.opt.number = true
 
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.shiftround = true
 vim.opt.smartindent = true
 vim.opt.autoindent = true
 vim.opt.smarttab = true
 vim.opt.ai = true
+vim.opt.relativenumber = true
 
 -- same keybinding for enable and disable copilot
 vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent = true })
