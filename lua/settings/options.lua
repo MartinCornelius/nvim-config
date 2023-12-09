@@ -26,3 +26,6 @@ vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent
 vim.api.nvim_set_keymap('n', '<leader><tab><tab>', ':bp <CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader><tab>p', ':bn <CR>', { noremap = true, silent = true })
 
+-- Compile and run file type
+vim.keymap.set("n", "<F5>", ":w<CR> :!pypy %<CR>")
+

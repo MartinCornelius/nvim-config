@@ -1,46 +1,47 @@
-return require('packer').startup(function ()
-  use 'wbthomason/packer.nvim'
+return require('packer').startup(function()
+    use 'wbthomason/packer.nvim'
 
-  use 'nvim-tree/nvim-tree.lua'
-  use {
-  'nvim-lualine/lualine.nvim',
-requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-}
+    use 'nvim-tree/nvim-tree.lua'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 
-    use {'akinsho/bufferline.nvim', tag="*", requires="nvim-tree/nvim-web-devicons"}
-  use "lukas-reineke/indent-blankline.nvim"
-  use 'lukas-reineke/lsp-format.nvim'
+    use { 'akinsho/bufferline.nvim', tag = "*", requires = "nvim-tree/nvim-web-devicons" }
+    use "lukas-reineke/indent-blankline.nvim"
+    use 'lukas-reineke/lsp-format.nvim'
 
-  -- TELESCOPE
-  use {
-    'nvim-telescope/telescope.nvim',
-    tag = '0.1.0',
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
+    -- TELESCOPE
+    use {
+        'nvim-telescope/telescope.nvim',
+        tag = '0.1.0',
+        requires = { { 'nvim-lua/plenary.nvim' } }
+    }
 
-  use 'tpope/vim-surround'
-  use 'tpope/vim-commentary' 
-            -- gcc comments a line
-            -- select gc comments out mutliple lines
+    use 'tpope/vim-surround'
+    use 'tpope/vim-commentary'
+    -- gcc comments a line
+    -- select gc comments out mutliple lines
 
-  use 'townk/vim-autoclose'
-  use 'luochen1990/rainbow'
+    use 'townk/vim-autoclose'
+    use 'luochen1990/rainbow'
 
-  -- LSP
-  use {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig"
-  }
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
+    -- LSP
+    use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig"
+    }
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-nvim-lsp'
 
-  -- Colorscheme
-  use 'projekt0n/github-nvim-theme'
-  use 'morhetz/gruvbox'
+    -- Colorscheme
+    use 'projekt0n/github-nvim-theme'
+    use 'morhetz/gruvbox'
+    use 'nyoom-engineering/nyoom.nvim'
 
-  -- GITHUB COPILOT
-  use 'github/copilot.vim'
-  -- TOGGLETERM
-  use 'akinsho/toggleterm.nvim'
+    -- GITHUB COPILOT
+    use 'github/copilot.vim'
+    -- TOGGLETERM
+    use 'akinsho/toggleterm.nvim'
 end)
