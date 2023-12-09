@@ -2,10 +2,9 @@ return require('packer').startup(function ()
   use 'wbthomason/packer.nvim'
 
   use 'nvim-tree/nvim-tree.lua'
-  use 'jose-elias-alvarez/null-ls.nvim'
   use 'famiu/feline.nvim'
-  use 'MunifTanjim/prettier.nvim'
   use "lukas-reineke/indent-blankline.nvim"
+  use 'lukas-reineke/lsp-format.nvim'
 
   -- TELESCOPE
   use {
