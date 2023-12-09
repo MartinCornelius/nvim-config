@@ -38,7 +38,6 @@ return require('packer').startup(function()
     -- Colorscheme
     use 'projekt0n/github-nvim-theme'
     use 'morhetz/gruvbox'
-    use 'nyoom-engineering/nyoom.nvim'
 
     -- GITHUB COPILOT
     use 'github/copilot.vim'
