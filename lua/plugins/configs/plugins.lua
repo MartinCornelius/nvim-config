@@ -7,8 +7,6 @@ return require('packer').startup(function()
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
-    use { 'akinsho/bufferline.nvim', tag = "*", requires = "nvim-tree/nvim-web-devicons" }
-    use "lukas-reineke/indent-blankline.nvim"
     use 'lukas-reineke/lsp-format.nvim'
 
     -- TELESCOPE
