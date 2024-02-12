@@ -36,7 +36,6 @@ return require('packer').startup(function()
     use 'hrsh7th/cmp-nvim-lsp'
 
     -- Colorscheme
-    use 'projekt0n/github-nvim-theme'
     use 'morhetz/gruvbox'
 
     -- GITHUB COPILOT

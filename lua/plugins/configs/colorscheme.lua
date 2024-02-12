@@ -3,4 +3,4 @@
 -- vim.cmd [[let g:gruvbox_contrast_light='hard']]
 -- vim.cmd [[colorscheme gruvbox]]
 -- vim.cmd [[hi LspCxxHlGroupMemberVariable guifg=#83a598]]
-vim.cmd [[colorscheme github_dark_dimmed]]
+vim.cmd [[colorscheme default]]

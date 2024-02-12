@@ -19,6 +19,7 @@ vim.opt.smarttab = true
 vim.opt.ai = true
 vim.opt.relativenumber = true
 vim.cmd[[set colorcolumn=80]]
+--vim.cmd[[:set guicursor=i:block]]
 
 -- same keybinding for enable and disable copilot
 vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent = true })
