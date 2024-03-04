@@ -18,7 +18,7 @@ vim.opt.autoindent = true
 vim.opt.smarttab = true
 vim.opt.ai = true
 vim.opt.relativenumber = true
-vim.cmd[[set colorcolumn=80]]
+vim.cmd [[set colorcolumn=80]]
 
 -- same keybinding for enable and disable copilot
 vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot ', { noremap = true, silent = true })
@@ -29,3 +29,4 @@ vim.api.nvim_set_keymap('n', '<leader><tab>p', ':bn <CR>', { noremap = true, sil
 
 -- Compile and run file type
 vim.keymap.set("n", "<F5>", ":w<CR> :!pypy %<CR>")
+vim.keymap.set("n", "<F8>", ":w<CR> :!pdflatex main.tex -quiet -output-directory=output<CR> :!start output/main.pdf<CR>")

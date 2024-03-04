@@ -33,8 +33,11 @@ return require('packer').startup(function()
     use 'hrsh7th/nvim-cmp'
     use 'hrsh7th/cmp-nvim-lsp'
 
+    use 'lervag/vimtex'
+
     -- Colorscheme
     use 'morhetz/gruvbox'
+    use 'Mofiqul/vscode.nvim'
 
     -- GITHUB COPILOT
     use 'github/copilot.vim'
