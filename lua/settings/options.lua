@@ -29,4 +29,4 @@ vim.api.nvim_set_keymap('n', '<leader><tab>p', ':bn <CR>', { noremap = true, sil
 
 -- Compile and run file type
 vim.keymap.set("n", "<F5>", ":w<CR> :!pypy %<CR>")
-vim.keymap.set("n", "<F8>", ":w<CR> :!pdflatex main.tex -quiet -output-directory=output<CR> :!start output/main.pdf<CR>")
+vim.keymap.set("n", "<F8>", ":wa<CR> :!pdflatex main.tex -quiet -output-directory=output<CR> :!start output/main.pdf<CR>")
